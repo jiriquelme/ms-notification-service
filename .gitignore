@@ -1,0 +1,22 @@
+# Ignorar archivos .env
+.env
+credenciales/*.json
+certificates/
+
+# Ignorar archivos de base de datos de Django
+*.sqlite3
+
+# Ignorar archivos de migración de Django
+**/migrations/*
+
+# Ignorar archivos y carpetas generados por el sistema
+*.pyc
+__pycache__/
+.DS_Store
+
+# Ignorar archivos de logs
+*.log
+
+# Ignorar archivos y carpetas de virtualenv
+venv/
+env/
